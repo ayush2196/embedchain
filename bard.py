@@ -6,9 +6,9 @@ import whisper
 import warnings
 import sys
 
-# Paste your Bard Token (check README.md for where to find yours) 
-token = 'bgie1ayIzHaj1_3JWlvleDjR2kA9Dwk9hY1Xtv7OEwTWq6E9ivfA8Fe4kg5H8xIv4rAQLw.'
-ts_token = 'sidts-CjIB3e41hcPq3-u1Z9jmp1qsnlBmG_mqksBwnHeii-_wWR3UIytEbtzTB6xJKfABv6V-uBAA'
+# Paste your Bard Token
+token = 'YOUR_BARD_TOKEN'
+ts_token = 'YOUR_BARD_TS_TOKEN'
 # Initialize Google Bard API
 chatbot = Chatbot(token, ts_token)
 # Initialize speech recognition
