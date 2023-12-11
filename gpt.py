@@ -8,7 +8,7 @@ BING_WAKE_WORD = "bing"
 GPT_WAKE_WORD = "gpt"
 
 # Initialize the OpenAI API
-openai.api_key = "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"
+openai.api_key = "YOUR_OPENAI_API_KEY"
 
 r = sr.Recognizer()
 tiny_model = whisper.load_model('tiny')
